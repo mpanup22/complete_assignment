@@ -19,7 +19,9 @@ variable "ami" {
  variable "key_name" {
      description = "key_name"
  }
- 
+variable "availability_zones" {
+description = "availability_zone"
+}
 
 #AUTO SCALING GROUP PARAMETERS
 

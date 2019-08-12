@@ -20,7 +20,9 @@ variable "ami" {
      description = "key_name"
  }
  
-
+variable "availability_zones" {
+description = "availability_zone"
+}
 
 
 

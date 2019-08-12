@@ -19,7 +19,7 @@ module "ec2" {
   image_id               = "${var.image_id}"
   instance_type          = "${var.instance_type}"
   key_name               = "${var.key_name}"
-  availability_zones     = "${var.availability_zones}"
+  availability_zones     = "${var.availability_zone}"
   subnets                = "${var.subnets}"
   certificate_arn        = "${var.certificate_arn}"
   ssl_policy             = "${var.ssl_policy}"

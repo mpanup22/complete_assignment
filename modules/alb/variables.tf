@@ -3,9 +3,9 @@ variable "region" {
 description = "region"
 }
 
-variable "availability_zone" {
-description = "availability_zone"
-}
+//variable "availability_zone" {
+//description = "availability_zone"
+//}
 
 variable "ami" {
      description = "ami id"

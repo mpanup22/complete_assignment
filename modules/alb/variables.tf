@@ -1,7 +1,7 @@
 
-variable "region" {
-description = "region"
-}
+//variable "region" {
+//description = "region"
+//}
 
 //variable "availability_zone" {
 //description = "availability_zone"

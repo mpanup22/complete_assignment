@@ -46,7 +46,7 @@ pipeline {
                 INFRA_ACTION = "${params.action}"
             }
              steps {
-                     git 'https://github.com/mpanup22/jenkins.git'
+                     git 'https://github.com/mpanup22/complete_assignment.git'
                 script {
                     sh 'chmod 777 infra.sh'
 	            sh 'chmod 777 Jenkinsfile'

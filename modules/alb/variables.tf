@@ -7,10 +7,10 @@
 //description = "availability_zone"
 //}
 
-variable "ami" {
-     description = "ami id"
+//variable "ami" {
+  //   description = "ami id"
 
- }
+// }
 
  variable "instance_type" {
      description = "instance_type"
